@@ -7,9 +7,10 @@
     <Description>Interface IMarkdownTransformer and Implementation MarkdownTransformer dependent on Markdown and AgilityPack and MarkdownTagHelper</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/Olbrasoft/Text.Transformation.Markdown</RepositoryUrl>
-    <PackageIcon>markdown-transformation.png</PackageIcon>
+    <PackageIcon>olbrasoft-text-transformation-markdown.png</PackageIcon>
     <RepositoryType>NetCore Library</RepositoryType>
     <PackageTags>Transformation Markdown Html PlainText</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\markdown-transformation.png">
+    <None Include="..\..\olbrasoft-text-transformation-markdown.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
