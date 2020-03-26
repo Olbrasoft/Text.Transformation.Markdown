@@ -11,7 +11,7 @@ Interface IMarkdownTransformer and Implementation MarkdownTransformer dependent 
 ```diff
  public void ConfigureServices(IServiceCollection services)
  {
-  + services.AddTextTransformationMarkdown()
+   services.AddTextTransformationMarkdown()
 ```
 
 3. Edit `_ViewImports.cshtml`
