@@ -6,7 +6,15 @@ Interface IMarkdownTransformer and Implementation MarkdownTransformer dependent 
 
 1. Instal-Package  Olbrasoft.Text.Transformation.Markdown
 
-2. Edit `_ViewImports.cshtml`
+2. Edit `Startup.cs` 
+
+```diff
+ public void ConfigureServices(IServiceCollection services)
+ {
+  + services.AddTextTransformationMarkdown()
+```
+
+3. Edit `_ViewImports.cshtml`
 
 ```diff
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
