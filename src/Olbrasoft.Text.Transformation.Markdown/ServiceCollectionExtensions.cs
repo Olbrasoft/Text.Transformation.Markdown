@@ -5,7 +5,7 @@ namespace Olbrasoft.Text.Transformation.Markdown
 {
     public static class ServiceCollectionExtensions
     {
-        public static void AddMarkdownTransformation(this IServiceCollection services)
+        public static void AddTextTransformationMarkdown(this IServiceCollection services)
         {
             services.AddSingleton<HtmlDocument>();
             services.AddSingleton<HeyRed.MarkdownSharp.Markdown>();
